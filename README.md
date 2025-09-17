@@ -91,7 +91,6 @@ Step 3: Update your WiFi SSID, password, and API key inside both codes.
 4. Open your ThingSpeak channel to view graphs and analytics of health parameters.# IoT-embedded-projects
 
 ` Code
->>>>>>>>>>>>>>>>>>>>>>>>>>>>Code for Arduino:<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 //#include <LiquidCrystal.h>
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27,16,2);
@@ -428,7 +427,6 @@ lcd.setCursor(13,1);
 lcd.print("F");
 }
 
->>>>>>>>>>>>>>>>>Code for WiFi module:<<<<<<<<<<<<<<<<<<<<<<<<<<
 #include "ThingSpeak.h"
 #include <ESP8266WiFi.h>
 
