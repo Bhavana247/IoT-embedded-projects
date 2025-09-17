@@ -90,7 +90,7 @@ Step 3: Update your WiFi SSID, password, and API key inside both codes.
 
 4. Open your ThingSpeak channel to view graphs and analytics of health parameters.# IoT-embedded-projects
 
-` Code
+```Code
 //#include <LiquidCrystal.h>
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27,16,2);
