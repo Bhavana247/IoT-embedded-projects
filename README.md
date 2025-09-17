@@ -1,12 +1,12 @@
-#Patient Health Monitoring System (Arduino + ESP8266 + ThingSpeak)
+# Patient Health Monitoring System (Arduino + ESP8266 + ThingSpeak)
 
-#Introduction
+# Introduction
 
 This project is a real-time patient health monitoring system that measures Heart Rate (BPM) and Body Temperature using Arduino and sends the data to the ThingSpeak IoT cloud via an ESP8266 WiFi module. The system uses a Pulse Sensor and Temperature Sensor, displays live readings on an LCD display, and uploads data to the cloud for remote monitoring.
 
 It is designed to be a low-cost, IoT-enabled solution for healthcare applications such as patient monitoring, telemedicine, and health analytics.
 
-#Features
+# Features
 
 LCD Display → Shows live BPM and temperature values.
 
@@ -24,7 +24,7 @@ Dual Code Setup → Arduino collects and processes data; ESP8266 handles WiFi an
 
 Scalable & Open Source → Can be extended with more sensors (SpO2, ECG, etc.).
 
-#How to Run
+# How to Run
 
 1. Hardware Required
 
