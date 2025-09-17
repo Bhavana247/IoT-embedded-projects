@@ -427,6 +427,9 @@ lcd.setCursor(13,1);
 lcd.print("F");
 }
 
+
+Wifi module code:
+
 #include "ThingSpeak.h"
 #include <ESP8266WiFi.h>
 
